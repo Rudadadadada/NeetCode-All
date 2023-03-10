@@ -33,9 +33,3 @@ std::vector<int> topKFrequent(std::vector<int> &nums, int k) {
         std::cout << elem << ' ';
     return ans;
 }
-
-int main() {
-    std::vector<int> nums = {1};
-    int k = 1;
-    topKFrequent(nums, k);
-}
